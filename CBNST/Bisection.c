@@ -2,7 +2,7 @@
 #include<math.h>
 
 double fun(double x){
-    return x*x*x-4*x-9;
+    return x*x*x-4*x-8;
 }
 int main(){
     int i = 0;
@@ -25,7 +25,7 @@ int main(){
     i = i+1;
     printf("\nThe value in %d iteration is:%.4lf",i,x2);  
     } while (fabs(x0-x1)>0.0001);
-    printf("\nThe value in first iteration is:%.4lf",x2);  
+    printf("\nThe value in %d iteration is:%.4lf",i+1,x2);  
     return 0;
     
 }
